@@ -396,7 +396,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         <div class="sec-tag"><span class="de">Projekte</span><span class="en">Projects</span></div>
         <div>
           <h2><span class="de">Selbst gebaut, selbst betrieben.</span><span class="en">Built and run by me.</span></h2>
-          <p><span class="de">Ein Produkt, das täglich läuft, und zwei Fallstudien, an denen ich gerade arbeite.</span><span class="en">One product that runs every day, and two case studies I'm working on now.</span></p>
+          <p><span class="de">Ein Produkt, das täglich läuft, ein Compliance-Spiel und zwei Fallstudien, an denen ich gerade arbeite.</span><span class="en">One product that runs every day, a compliance game, and two case studies I'm working on now.</span></p>
         </div>
       </div>
 
@@ -447,6 +447,58 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
           <div class="row"><span><i class="ok"></i><span class="de">Backup</span><span class="en">Backup</span></span><code><span class="de">täglich</span><span class="en">daily</span></code></div>
           <div class="row"><span><i class="ok"></i><span class="de">Tagesbericht</span><span class="en">Daily report</span></span><code><span class="de">automatisch</span><span class="en">automatic</span></code></div>
           <div class="row"><span><i class="ok"></i>Rate-Limits</span><code><span class="de">pro Nutzer</span><span class="en">per user</span></code></div>
+          <div class="langs" aria-label="Sprachen"><b>DE</b><b>EN</b><b>FR</b><b>UK</b><b>RU</b></div>
+        </aside>
+      </article>
+
+      <article class="project spot" style="margin-top:24px">
+        <div class="project-main">
+          <div class="p-meta">
+            <span class="chip"><i></i><span class="de">Spielbar</span><span class="en">Playable</span></span>
+            <span class="de">Eigenprojekt · 2026</span><span class="en">Own project · 2026</span>
+          </div>
+          <h3><span class="de">Flagged – KYC/AML-Simulator</span><span class="en">Flagged – a KYC/AML simulator</span></h3>
+          <p>
+            <span class="de">Ein Browserspiel aus der Ich-Perspektive: Nachtschicht in der Compliance-Abteilung einer Bank. Ausweise und MRZ prüfen, Structuring und Money Mules erkennen, Krypto-Wallets in einem nachgebauten Blockchain-Explorer verfolgen und als Teamleitung Fälle delegieren. Die Regeln habe ich aus echten KYC- und AML-Prozessen abgeleitet; gebaut mit KI-Unterstützung.</span>
+            <span class="en">A first-person browser game: the night shift in a bank's compliance team. Check IDs and the MRZ, spot structuring and money mules, trace crypto wallets in a mock blockchain explorer and, as team lead, delegate cases. I based the rules on real KYC and AML processes and built it with AI assistance.</span>
+          </p>
+          <div class="p-cols">
+            <div>
+              <h4><span class="de">Inhalt</span><span class="en">Content</span></h4>
+              <ul>
+                <li><span class="de">13 Nächte, 14 Prüfregeln</span><span class="en">13 nights, 14 check rules</span></li>
+                <li><span class="de">Training mit Hervorhebungen</span><span class="en">Guided training with highlights</span></li>
+                <li><span class="de">Survival-Modus</span><span class="en">Survival mode</span></li>
+              </ul>
+            </div>
+            <div>
+              <h4><span class="de">Themen</span><span class="en">Topics</span></h4>
+              <ul>
+                <li>KYC, MRZ, Liveness</li>
+                <li><span class="de">Transaktionsmonitoring</span><span class="en">Transaction monitoring</span></li>
+                <li><span class="de">Memo-Rückbuchung, Wallet-Screening</span><span class="en">Memo recovery, wallet screening</span></li>
+              </ul>
+            </div>
+            <div>
+              <h4>Stack</h4>
+              <ul>
+                <li>JavaScript, three.js</li>
+                <li><span class="de">5 Sprachen</span><span class="en">5 languages</span></li>
+                <li><span class="de">Desktop + Mobil</span><span class="en">Desktop + mobile</span></li>
+              </ul>
+            </div>
+          </div>
+          <a class="btn" href="flagged.html" target="_blank" rel="noopener">
+            <span class="de">Spiel starten</span><span class="en">Play the game</span>
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 11l6-6M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <aside class="console" aria-label="Flagged">
+          <div class="console-head"><span><span class="de">Fall KYC-20402</span><span class="en">Case KYC-20402</span></span><span class="dots"><i></i><i></i><i></i></span></div>
+          <div class="row"><span><i class="ok"></i><span class="de">Ausweis gültig</span><span class="en">ID valid</span></span><code>✓</code></div>
+          <div class="row"><span><i class="ok"></i><span class="de">Gesicht passt</span><span class="en">Face match</span></span><code>✓</code></div>
+          <div class="row"><span><i class="ok"></i><span class="de">MRZ-Prüfziffern</span><span class="en">MRZ check digits</span></span><code>7-3-1</code></div>
+          <div class="row"><span><i class="ok" style="background:#ff5a4f;box-shadow:0 0 0 4px rgba(255,90,79,.15)"></i><span class="de">Name: 1 Buchstabe anders</span><span class="en">Name: 1 letter off</span></span><code>FLAG</code></div>
           <div class="langs" aria-label="Sprachen"><b>DE</b><b>EN</b><b>FR</b><b>UK</b><b>RU</b></div>
         </aside>
       </article>
@@ -577,6 +629,9 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         </div>
         <div class="c-item">
           <div style="min-width:0"><small><span class="de">Standort</span><span class="en">Location</span></small><div class="v" style="user-select:auto"><span class="de">Graz · Wien · Remote (Österreich)</span><span class="en">Graz · Vienna · remote (Austria)</span></div></div>
+        </div>
+        <div class="c-item">
+          <div style="min-width:0"><small>LinkedIn</small><a class="v" href="https://www.linkedin.com/in/andrii-stepanov-a39b05445/" target="_blank" rel="noopener">in/andrii-stepanov ↗</a></div>
         </div>
         <div class="c-item">
           <div style="min-width:0"><small><span class="de">Projekt</span><span class="en">Project</span></small><a class="v" href="https://t.me/savestepbot" target="_blank" rel="noopener">t.me/savestepbot ↗</a></div>
